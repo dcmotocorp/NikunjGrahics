@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path
 from.import views
 urlpatterns = [
-    path('index/',views.index,name="index"),
+    path('',views.index,name="index"),
     path('inner-page/', views.inner_page, name="inner-page"),
     path('portfolio-detail/',views.portfolio_detail,name="portfolio-detail"),
     path('portfolio/', views.portfolio, name="portfolio"),
